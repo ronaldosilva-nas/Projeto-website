@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Smooch&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #2f4f4f;
+}
+
+/* cabeçalho da página */
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* estilos para o logo */
+.cabecalho h1 {
+    padding-top: 16px;
+    padding-left: 131px;
+    font-family: Smooch, serif, Georgia;
+    font-size: 40px;
+    color: #00ABF0;
+}
+
+.cabecalho .menu_navegacao {
+    width: 500px;
+}
+
+/* menu de navegação */
+.menu_navegacao {
+    padding-right: 132px;
+    padding-top: 28px;
+}
+
+.menu_navegacao .inicio {
+    color: #00ABF0;
+}
+
+/* definindo estilos ao menus */
+.menu_navegacao a {
+    padding-left: 22px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+/* conteúdo principal */
+.principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 80px;
+    padding-left: 131px;
+}
+
+/* definindo estilos ao h1 */
+.principal h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 80px;
+    color: #ffffff;
+}
+
+/* definindo estilos ao h2 */
+.principal h2 {
+    color: #00ABF0;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+/* definindo estilos de imagens */
+.principal img {
+    width: 66px;
+    height: 66px;
+    margin-right: 43px;
+    margin-top: 27px;
+}
+
+/* definindo estilo da imagem principal */
+.principal .imagem_principal img {
+    width: 431px;
+    height: 435px;
+    margin-right: 132px;
+}
+
+/* posições da seção principal */
+.secao_sobre {
+    display: block;
+    justify-items: center;
+    margin-top: 72px;
+}
+
+/* estilos no título da seção principal */
+.secao_sobre h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+/* estilos na imagem da seção principal */
+.secao_sobre img {
+    width: 240px;
+    height: 240px;
+    margin-top: 80px;
+    filter: invert(1);
+}
+
+/* estilizando parágrafo */
+.secao_sobre p {
+    margin-top: 80px;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 1146px;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+/* posições da seção habilidades */
+.secao_habilidade {
+    display: block;
+    justify-items: center;
+    margin-top: 72px;
+}
+
+/* estilos no título da seção habilidades */
+.secao_habilidade h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+/* estilos na imagem da seção habilidades */
+.secao_habilidade .logo_habilidade {
+    width: 240px;
+    height: 240px;
+    margin-top: 50px;
+    filter: invert(1);
+}
+
+/* exibe os itens em linha horizontal e adiciona espaços */
+.secao_habilidade .imagens_habilidades {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    
+}
+
+/* transforma a tag <p> flexível, empilha os itens e centraliza o texto */
+.secao_habilidade .habilidade {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* define tamanho da imagem e espaçamento */
+.secao_habilidade .habilidade img {
+    width: 126px;
+    height: 126px;
+    margin-left:40px;
+    margin-right: 40px;
+}
+
+/* estilos a tag <span> */
+.secao_habilidade .habilidade span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+/* posições da seção educação */
+.secao_educacao {
+    display: block;
+    justify-items: center;
+    margin-top: 72px;
+}
+
+/* estilos no título da seção educação */
+.secao_educacao h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+/* estilos na imagem da seção educação */
+.secao_educacao img {
+    width: 240px;
+    height: 240px;
+    margin-top: 80px;
+    filter: invert(1);
+}
+
+/* estilizando parágrafo */
+.secao_educacao .educacao {
+    margin-top: 80px;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 1146px;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+/* difini a cor na tag <strong> */
+.secao_educacao .educacao strong {
+    color: #00ABF0;
+}
+
+/* posições e estilos do conteúdo de contato */
+.secao_contato {
+    display: flex;
+    margin-top: 72px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    border: 1px solid #00ABF0;
+    width: 800px;
+    height: 530px;
+}
+/* aplica estilos ao título */
+.secao_contato h1 {
+    margin-left:auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    color: #ffffff;
+}
+/* posições do conteúdo enviar mensagem */
+.enviar_mensagem {
+    position: absolute;
+    margin-top: 78px;
+    width: 450px;
+    height: 280px;
+}
+/* aplica estilos ao título do conteúdo enviar mensagem */
+.enviar_mensagem h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-weight: 900;
+    margin-left: 34px;
+}
+
+/* defini posições na tag <form> */
+.enviar_mensagem form {
+    display: flex;
+    flex-direction: column;
+    max-width: 380px;
+    margin: auto;
+}
+
+/* estilos na tag <label> */
+.enviar_mensagem form label {
+    color: #00ABF0;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+/* estilos na tag <input> */
+.enviar_mensagem form input {
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-bottom: 14px;
+    background-color: #d9d9d9;
+}
+
+/* estilos na tag <textarea> */
+.enviar_mensagem form textarea {
+    min-height: 150px;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: #d9d9d9;
+}
+
+/* estilos no botão de enviar */
+.enviar_mensagem form button {
+    padding: 8px 44px;
+    margin: 16px auto 0;
+    background-color: #00ABF0;
+    color: #ffffff;
+    border: 1px solid;
+    border-color: #ffffff;
+    cursor: pointer;
+}
+
+/* posição do conteúdo entre em contato */
+.secao_contato .entre_contato {
+    position: absolute;
+    margin-left: 485px;
+    margin-top: 78px;
+}
+
+/* aplica estilos ao título do conteúdo entre em contato */
+.entre_contato h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+/* estiliza o conteúdo entre em contato */
+.entre_contato p {
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px;
+    margin-top: 15px;
+}
+
+.entre_contato strong {
+    color: #00ABF0;
+}
+
+/* definindo estilos de imagem */
+.entre_contato img {
+    width: 30px;
+    height: 30px;
+    margin-right: 43px;
+    margin-top: 50px;
+}
+
+/* estilos para a div de status de mensagem */
+.mensagem_status {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff; 
+    display: none; 
+}
+
+/* estilos verde para sucesso */
+.mensagem_status.success {
+    background-color: #4CAF50; 
+}
+
+/* estilos vermelho para erro */
+.mensagem_status.error {
+    background-color: #f44336; 
+}
+
+/* estilos de botão voltar ao topo */
+#voltarTopo {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background-color: #00ABF0;
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* posições para o rodapé */
+.rodape {
+    width: 100%;
+    height: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* estilos para o texto dentro do rodapé */
+.rodape p {
+    text-align: center;
+    padding: 20px;
+    color: #f4f4f4;
+}
+
+/* responsividade */
+@media (max-width: 768px) {
+    .cabecalho {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .cabecalho h1,
+    .menu_navegacao {
+        padding: 0;
+    }
+
+    .menu_navegacao {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px 0;
+    }
+
+    .principal {
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 20px;
+    }
+
+    .principal h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .principal h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .principal img {
+        margin-right: 0;
+        margin-top: 15px;
+    }
+
+    .principal .imagem_principal img {
+        width: 280px;
+        height: auto;
+        margin: 20px 0;
+    }
+
+    .secao_sobre p,
+    .secao_educacao .educacao {
+        width: 90%;
+        font-size: 18px;
+        margin: 20px auto;
+    }
+
+    .secao_habilidade .imagens_habilidades {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .secao_contato {
+        border: none;
+    }
+
+    .rodape {
+        margin-top: 100px;
+    }
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <title>Website</title>
+    </head>
+    <body>
+        <!-- Cabeçalho da página com menu de navegação -->
+        <header  id="inicio" class="cabecalho">
+            <h1>Ronaldo</h1>
+            <nav class="menu_navegacao">
+                <a class="inicio" href="#inicio">Início</a>
+                <a href="#sobre">Sobre mim</a>
+                <a href="#habilidade">Habilidade</a>
+                <a href="#educacao">Educação</a>
+                <a href="#contato">Contato</a>
+            </nav>
+        </header>
+        <!-- Conteúdo principal -->
+        <main class="principal">
+            <div>
+                <h1>Ronaldo Silva</h1>
+                <h2>Desenvolvedor de sofware</h2>
+                <a href="https://www.linkedin.com/in/ronaldo-silva-nascimento-292243336/" target="_blank"><img src="assets/images/linkedin.png" alt="LinkedIn"></a>
+                <a href="https://github.com/ronaldosilva-nas" target="_blank"><img src="assets/images/github.png" alt="GitHub"></a>
+                <a href="https://x.com/nas12148?t=j15-XCqfllpLcnt_q9vzeQ&s=08" target="_blank"><img src="assets/images/twitter.png" alt="X"></a>
+                <a href="https://www.facebook.com/profile.php?id=61576640396762" target="_blank"><img src="assets/images/facebook.png" alt="Facebook"></a>
+            </div>
+            <div class="imagem_principal">
+                <img src="assets/images/foto.png" alt="Foto de perfil de Ronaldo Silva">
+            </div>
+        </main>
+        <!-- Seção sobre mim -->
+        <section id="sobre" class="secao_sobre">
+            <h1>SOBRE MIM</h1>
+            <img src="assets/images/about.png" alt="">
+            <p>Sou estudante de informática com interesse em desenvolvimento de software,
+            tanto em front-end quanto back-end. Busco oportunidades para aplicar
+            e expandir meus conhecimentos técnicos em projetos desafiadores.</p>
+        </section>
+        <!-- Seção habilidades -->
+        <section id="habilidade" class="secao_habilidade">
+            <h1>HABILIDADES</h1>
+            <img class="logo_habilidade" src="assets/images/skills.png" alt="">
+            <!--<p>HTML - CSS - JavaScript - Java - Git e Github</p>-->
+            <div class="imagens_habilidades">
+                <p class="habilidade">
+                    <img src="assets/images/html.png" alt="">
+                    <span>HTML</span>
+                </p>
+                <p class="habilidade">
+                    <img src="assets/images/css.png" alt="">
+                    <span>CSS</span>
+                </p>
+                <p class="habilidade">
+                    <img src="assets/images/java-script.png" alt="">
+                    <span>JavaScript</span>
+                </p>
+                <p class="habilidade">
+                    <img src="assets/images/java.png" alt="">
+                    <span>Java</span>
+                </p>
+                <p class="habilidade">
+                    <img src="assets/images/git.png" alt="">
+                    <span>Git</span>
+                </p>
+            </div>
+        </section>
+        <!-- Seção educação -->
+        <section id="educacao" class="secao_educacao">
+            <h1>EDUCAÇÃO</h1>
+            <img src="assets/images/education.png" alt="">
+            <div class="educacao">
+                <p>
+                    <strong>Curso:</strong>
+                    Curso técnico em informática
+                </p>
+                <p>
+                    <strong>Instituição:</strong>
+                    Cruzeiro do Sul
+                </p>
+                <p>
+                    <strong>Status:</strong>
+                    Cursando 2º semestre
+                </p>
+            </div>
+        </section>
+        <!-- Formulário para contato -->
+        <section id="contato" class="secao_contato">
+            <h1>CONTATO</h1>
+            <div class="enviar_mensagem">
+                <h2>Enviar mensagem</h2>
+                <form id="formulario" action="https://formspree.io/f/meokqggw" method="post">
+                    <label for="name">Nome:</label>
+                    <input type="text" name="name" id="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" required>
+
+                    <label for="message">Mensagem:</label>
+                    <textarea name="message" id="message" required></textarea>
+
+                    <button type="submit">Enviar</button>
+                </form>
+                <!-- Div para mostrar mensagem de confirmação -->
+                <div id="statusMensagem" class="mensagem_status" style="display:none;"></div>
+            </div>
+            <div class="entre_contato">
+                <h2>Entre em contato</h2>
+                <p>
+                    <strong>Nome:</strong>
+                    Ronaldo Silva Nascimento
+                </p>
+                <p>
+                    <strong>Telefone:</strong>
+                    (99) 98258-4390
+                </p>
+                <p>
+                    <strong>E-mail:</strong>
+                    silvaronaldo7662@gmail.com
+                </p>
+                <p>
+                    <strong>Endereço:</strong>
+                    Lago da Pedra, <br>
+                    65.715-000, Maranhão
+                </p>
+                    <a href="https://www.linkedin.com/in/ronaldo-silva-nascimento-292243336/" target="_blank"><img src="assets/images/linkedin.png" alt="LinkedIn"></a>
+                    <a href="https://github.com/ronaldosilva-nas" target="_blank"><img src="assets/images/github.png" alt="GitHub"></a>
+                    <a href="https://x.com/nas12148?t=j15-XCqfllpLcnt_q9vzeQ&s=08" target="_blank"><img src="assets/images/twitter.png" alt="X"></a>
+                    <a href="https://www.facebook.com/profile.php?id=61576640396762" target="_blank"><img src="assets/images/facebook.png" alt="Facebook"></a>
+            </div>
+        </section>
+        <!-- Voltar ao topo -->
+        <button id="voltarTopo" title="Voltar ao topo">↑</button>
+
+        <footer class="rodape">
+            <p>&copy; 2025 Ronaldo Silva Nascimento. Todos os direitos reservados.</p>
+        </footer>
+
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>
